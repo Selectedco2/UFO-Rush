@@ -8,9 +8,9 @@ public class UfoControl : MonoBehaviour
 {
 
  [SerializeField]
-  float jumpForce = 100;
+float jumpForce = 100;
 
-  bool mayJump = true;
+bool mayJump = true;
 
     // Start is called before the first frame update
     void Start()
@@ -29,7 +29,6 @@ public class UfoControl : MonoBehaviour
       Vector2 jump = Vector2.up * jumpForce;
 
       rb.AddForce(jump);
-
       mayJump = false;
     }
 
@@ -38,11 +37,8 @@ public class UfoControl : MonoBehaviour
       mayJump = true;
     }
     
+          
+          
     }
-    
-  private void OnDrawGizmos()
-  {
-    
-  }
   
 }
