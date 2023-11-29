@@ -373,7 +373,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Users/andreas.thegelstrom/Documents/Unity/2022.3.8f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Users/andreas.thegelstrom/Documents/Unity/2022.3.8f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/PipeControl.cs"
+"Assets/GroundControl.cs"
+"Assets/HouseControl.cs"
+"Assets/SkyControl.cs"
 "Assets/UfoControl.cs"
 -langversion:9.0
 
