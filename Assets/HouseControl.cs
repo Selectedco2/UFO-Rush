@@ -6,14 +6,14 @@ public class HouseControl : MonoBehaviour
     public GameObject HousePrefab;
     
     [SerializeField]
-    float TimeBetween = 2f;
+    public float TimeBetween = 2f;
     
     [SerializeField]
-    float Speed = 5f;
+    public float Speed = 5f;
    
     void Start()
     {
-        InvokeRepeating("SpawnHouse", 0f, TimeBetween);
+
     }
 
     // Update is called once per frame
@@ -21,13 +21,13 @@ public class HouseControl : MonoBehaviour
     {
         
     }
-     private void SpawnPipe()
+     private void SpawnHouse()
     {
         
         GameObject newHouse = Instantiate(HousePrefab, transform.position, Quaternion.identity);
 
-        Rigidbody2D pipeRb = newHouse.GetComponent<Rigidbody2D>();
-        pipeRb.velocity = new Vector2(-Speed, 0f);
+        Rigidbody2D houseRb = newHouse.GetComponent<Rigidbody2D>();
+        houseRb.velocity = new Vector2(-Speed, 0f);
 
     
         Destroy(newHouse, 10f);
