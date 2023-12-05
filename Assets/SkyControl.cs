@@ -7,9 +7,13 @@ public class SkyControl : MonoBehaviour
     [SerializeField]
    float speed = 5f;
 
+    [SerializeField] 
+    UfoControl ufo;
     // Update is called once per frame
     void Update()
     {
+        if  (UfoControl.canControl == true)
+        {
         Vector2 movement = new Vector2(-1, 0);
         transform.Translate(movement*speed * Time.deltaTime);
         if (transform.position.x < -18.028)
@@ -18,4 +22,6 @@ public class SkyControl : MonoBehaviour
             transform.position = pos;
         }
     }
+        }
+        
 }

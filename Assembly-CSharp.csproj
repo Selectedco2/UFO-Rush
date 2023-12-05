@@ -67,6 +67,7 @@
     <Compile Include="Assets\HouseControl.cs" />
     <Compile Include="Assets\GroundControl.cs" />
     <Compile Include="Assets\UfoControl.cs" />
+    <Compile Include="Assets\HouseSpawner.cs" />
     <Compile Include="Assets\SkyControl.cs" />
   </ItemGroup>
   <ItemGroup>
