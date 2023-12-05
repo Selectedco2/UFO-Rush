@@ -15,7 +15,7 @@ public class HouseControl : MonoBehaviour
     {
         if (UfoControl.canControl == false)
         {
-            
+            HouseSpawner.houseSpeed = 0f;
         }
 
     }
