@@ -39,9 +39,11 @@ public class UfoControl : MonoBehaviour
       {
         mayJump = true;
       }
-
     }
-
+      if (canControl == false)
+    {
+      // switch gamescreen to start
+    }
   }
   void OnTriggerEnter2D(Collider2D collision)
   {

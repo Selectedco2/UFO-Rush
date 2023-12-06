@@ -376,6 +376,7 @@
 "Assets/GroundControl.cs"
 "Assets/HouseControl.cs"
 "Assets/HouseSpawner.cs"
+"Assets/MainMenu.cs"
 "Assets/SkyControl.cs"
 "Assets/UfoControl.cs"
 -langversion:9.0
